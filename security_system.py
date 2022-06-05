@@ -10,10 +10,10 @@ myobj=datetime.now()
 
 
 video_capture= cv2.VideoCapture(0)
-prithivi_image = fr.load_image_file('10.jpg')
-prithivi_face_encoding = fr.face_encodings(prithivi_image)[0]
-known_face_encondings = [prithivi_face_encoding]
-known_face_names = ["PRITHIVIRAJ"]
+Vijay_image = fr.load_image_file('Vijay.jpg')
+Vijay_face_encoding = fr.face_encodings(Vijay_image)[0]
+known_face_encondings = [Vijay_face_encoding]
+known_face_names = ["Vijay"]
 
 i=0
 
